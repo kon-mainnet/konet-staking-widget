@@ -34,6 +34,7 @@ export const AllowanceDataTableRow = ({
       ) : isInfiniteAllowance ? (
         'Infinite'
       ) : (
+        //@ts-expect-error: need to update package
         <FormatToken amount={allowance} symbol={getTokenDisplayName(token)} />
       )}
     </DataTableRow>

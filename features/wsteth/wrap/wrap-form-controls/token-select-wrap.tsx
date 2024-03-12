@@ -22,9 +22,11 @@ type TokenSelectWrapProps = Pick<
 export const TokenSelectWrap = (props: TokenSelectWrapProps) => {
   return (
     <TokenSelectHookForm
+      //@ts-expect-error: need to update package
       options={OPTIONS}
       onChange={(value) => {
         trackEvent(
+          //@ts-expect-error: need to update package
           ...(value === TOKENS_TO_WRAP.ETH
             ? MATOMO_CLICK_EVENTS.wrapTokenSelectEth
             : MATOMO_CLICK_EVENTS.wrapTokenSelectSteth),

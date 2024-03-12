@@ -5,8 +5,9 @@ export const parseEnvConfig = (envConfig: EnvConfigRaw): EnvConfigParsed => {
   return {
     defaultChain: Number(envConfig.defaultChain),
     supportedChainIds: envConfig.supportedChains,
+    //@ts-expect-error: need to update package
     prefillUnsafeElRpcUrls: {
-      [CHAINS.Konet]: envConfig.prefillUnsafeElRpcUrls1,
+      [CHAINS.Mainnet]: envConfig.prefillUnsafeElRpcUrls1,
     },
     ipfsMode: envConfig.ipfsMode,
     walletconnectProjectId: envConfig.walletconnectProjectId,

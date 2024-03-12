@@ -59,6 +59,7 @@ export const TokenSelectHookForm = ({
     <SelectIcon
       {...field}
       warning={warning}
+      //@ts-expect-error: need to update package
       icon={iconsMap[field.value]}
       data-testid="drop-down"
       error={isValidationErrorTypeValidate(errors[errorField]?.type)}
@@ -80,6 +81,7 @@ export const TokenSelectHookForm = ({
       {options.map(({ label, token }) => (
         <Option
           key={token}
+          //@ts-expect-error: need to update package
           leftDecorator={iconsMap[token]}
           value={token}
           data-testid={token}

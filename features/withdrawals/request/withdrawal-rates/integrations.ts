@@ -37,6 +37,7 @@ const calculateRateReceive = (
 const getOpenOceanWithdrawalRate: GetRateType = async ({ amount, token }) => {
   if (amount && amount.gt(Zero)) {
     try {
+      //@ts-expect-error: need to update package
       const result = await getOpenOceanRate(amount, token, 'ETH');
       return result;
     } catch (e) {

@@ -35,6 +35,7 @@ export const WrapFormValidationResolver: Resolver<
       VALIDATION_CONTEXT_TIMEOUT,
     );
 
+    //@ts-expect-error: need to update package
     if (token === TOKENS_TO_WRAP.ETH) {
       // checks active internally after other wallet-less check
       validateStakeEth({

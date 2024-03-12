@@ -38,6 +38,7 @@ export const METRIC_CONTRACT_ABIS = {
 
 export const getMetricContractInterface = memoize(
   (contractName: CONTRACT_NAMES) =>
+    //@ts-expect-error: need to update package
     new utils.Interface(METRIC_CONTRACT_ABIS[contractName]),
 );
 
