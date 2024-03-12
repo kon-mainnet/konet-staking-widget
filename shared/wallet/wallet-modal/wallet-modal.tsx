@@ -90,7 +90,7 @@ export const WalletModal: ModalComponentType = (props) => {
             size="xs"
             variant="ghost"
           >
-            View on Etherscan
+            View on KONETExplorer
           </ButtonIcon>
         </WalletModalActionsStyle>
       </WalletModalContentStyle>

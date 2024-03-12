@@ -56,13 +56,13 @@ export default class MyDocument extends Document {
   }
 
   get metaTitle(): string {
-    return 'Stake with Lido | Lido';
+    return 'Stake with KONET';
   }
 
   get metaDescription(): string {
     return (
-      'Liquid staking with Lido. ' +
-      'Stake Ether with Lido to get daily rewards while keeping full control of your staked tokens. ' +
+      'Liquid staking with KONET. ' +
+      'Stake KONET with KONET.fi to get daily rewards while keeping full control of your staked tokens. ' +
       'Start receiving rewards in just a few clicks.'
     );
   }

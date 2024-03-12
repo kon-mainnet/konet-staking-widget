@@ -13,7 +13,7 @@ type DataTableRowStethByWstethProps = {
 };
 
 export const DataTableRowStethByWsteth = ({
-  toSymbol = 'stETH',
+  toSymbol = 'stKONET',
 }: DataTableRowStethByWstethProps) => {
   const { data, initialLoading } = useStethByWsteth(OneWsteth);
 
@@ -25,7 +25,7 @@ export const DataTableRowStethByWsteth = ({
     >
       {data ? (
         <>
-          1 wstETH =
+          1 wstKONET =
           <FormatToken
             data-testid="destinationRate"
             amount={data}

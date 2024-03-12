@@ -11,7 +11,7 @@ const objToCSV = (objArray: SomeObj[]) => {
   return [header, ...data].join('\n');
 };
 
-export const saveAsCSV = (data: SomeObj[], fileName = 'Lido Rewards') => {
+export const saveAsCSV = (data: SomeObj[], fileName = 'KONET Rewards') => {
   if (data.length === 0) {
     return;
   }

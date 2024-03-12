@@ -155,7 +155,7 @@ const dexWithdrawalMap: DexWithdrawalIntegrationMap = {
     matomoEvent: MATOMO_CLICK_EVENTS_TYPES.withdrawalGoTo1inch,
     link: (amount, token) =>
       `https://app.1inch.io/#/1/simple/swap/${
-        token == TOKENS.STETH ? 'stETH' : 'wstETH'
+        token == TOKENS.STETH ? 'stKONET' : 'wstKONET'
       }/ETH?sourceTokenAmount=${formatEther(amount)}`,
   },
 } as const;

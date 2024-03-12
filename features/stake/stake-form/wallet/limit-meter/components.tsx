@@ -90,7 +90,7 @@ export const LimitHelp: LimitComponent = ({ limitLevel }) => {
             stake over the global staking limit. The global limit goes down with
             each deposit but it&apos;s passively restored on each block.{' '}
             <a
-              href="https://docs.lido.fi/guides/steth-integration-guide#staking-rate-limits"
+              href="https://konetmain.com/guides/steth-integration-guide#staking-rate-limits"
               target="_blank"
               rel="noreferrer"
             >

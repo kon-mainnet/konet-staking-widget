@@ -63,7 +63,7 @@ const LidoButton: React.FC<OptionButtonProps> = ({ isActive, onClick }) => {
       onClick={onClick}
     >
       <OptionsPickerRow>
-        <OptionsPickerLabel>Use Lido</OptionsPickerLabel>
+        <OptionsPickerLabel>Use KONET</OptionsPickerLabel>
         <OptionsPickerIcons>
           <LidoIcon />
         </OptionsPickerIcons>

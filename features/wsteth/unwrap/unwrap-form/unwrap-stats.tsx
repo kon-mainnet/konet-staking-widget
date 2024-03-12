@@ -39,7 +39,7 @@ export const UnwrapStats = () => {
           data-testid="youWillReceive"
           fallback="-"
           amount={willReceiveStETH}
-          symbol="stETH"
+          symbol="stKONET"
           trimEllipsis
         />
       </DataTableRow>

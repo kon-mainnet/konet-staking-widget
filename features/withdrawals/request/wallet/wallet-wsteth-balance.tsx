@@ -15,14 +15,14 @@ export const WalletWstethBalance = () => {
       <FormatToken
         data-testid="wstEthBalance"
         amount={balanceWSteth}
-        symbol="wstETH"
+        symbol="wstKONET"
       />
       <Text size={'xxs'} color={'secondary'}>
         ≈{' '}
         <FormatToken
           data-testid="wstEthBalanceOption"
           amount={stethByWstethBalance}
-          symbol="ETH"
+          symbol="KONET"
         />
       </Text>
     </>
@@ -31,7 +31,7 @@ export const WalletWstethBalance = () => {
   return (
     <CardBalance
       small
-      title="wstETH Balance"
+      title="wstKONET Balance"
       loading={loading.isStethBalanceLoading || isStethByWstethLoading}
       value={stethBalanceValue}
     />

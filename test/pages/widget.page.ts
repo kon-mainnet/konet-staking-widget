@@ -9,12 +9,12 @@ export class WidgetPage {
 
   constructor(page: Page) {
     this.page = page;
-    this.title = this.page.locator('h1', { hasText: 'Stake Ether' });
+    this.title = this.page.locator('h1', { hasText: 'Stake KONET' });
     this.connectWalletButton = this.page.locator('main button', {
       hasText: 'Connect wallet',
     });
     this.lidoStatistic = this.page.locator('section', {
-      hasText: 'Lido statistic',
+      hasText: 'KONET statistic',
     });
   }
 

@@ -4,10 +4,10 @@ import { MATOMO_CLICK_EVENTS_TYPES } from 'config';
 
 export const WhereCanICoverMySteth: FC = () => {
   return (
-    <Accordion summary="Where can I cover my stETH?">
+    <Accordion summary="Where can I cover my stKONET?">
       <span>
         There are multiple coverage and insurer providers with different
-        products for stETH:
+        products for stKONET:
       </span>
       <ul>
         <li>

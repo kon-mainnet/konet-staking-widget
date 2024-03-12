@@ -21,7 +21,7 @@ export const TransactionInfo = () => {
   const token = useWatch<RequestFormInputType, 'token'>({ name: 'token' });
   const { requests } = useValidationResults();
   const unlockCostTooltip = isApprovalFlow ? undefined : (
-    <>Lido leverages gasless token approvals via ERC-2612 permits</>
+    <>KONET leverages gasless token approvals via ERC-2612 permits</>
   );
   const { txPriceUsd: requestTxPriceInUsd, loading: requestTxPriceLoading } =
     useRequestTxPrice({
@@ -60,10 +60,10 @@ export const TransactionInfo = () => {
       />
       {token === TOKENS.STETH ? (
         <DataTableRow data-testid="exchangeRate" title="Exchange rate">
-          1 stETH = 1 ETH
+          1 stKONET = 1 KONET
         </DataTableRow>
       ) : (
-        <DataTableRowStethByWsteth toSymbol="ETH" />
+        <DataTableRowStethByWsteth toSymbol="KONET" />
       )}
     </>
   );

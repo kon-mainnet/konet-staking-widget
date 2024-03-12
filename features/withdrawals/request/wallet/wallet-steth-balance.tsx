@@ -8,7 +8,7 @@ export const WalletStethBalance = () => {
   const stethBalanceValue = (
     <FormatToken
       amount={balanceSteth}
-      symbol="stETH"
+      symbol="stKONET"
       data-testid="stEthBalance"
     />
   );
@@ -16,7 +16,7 @@ export const WalletStethBalance = () => {
   return (
     <CardBalance
       small
-      title="stETH Balance"
+      title="stKONET Balance"
       loading={loading.isStethBalanceLoading}
       value={stethBalanceValue}
     />

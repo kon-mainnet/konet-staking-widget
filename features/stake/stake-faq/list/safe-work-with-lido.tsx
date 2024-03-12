@@ -4,8 +4,8 @@ import { MATOMO_CLICK_EVENTS_TYPES } from 'config';
 
 export const SafeWorkWithLido: FC = () => {
   return (
-    <Accordion summary="Is it safe to work with Lido?">
-      <span> In order to work safe, Lido fits the next points:</span>
+    <Accordion summary="Is it safe to work with KONET?">
+      <span> In order to work safe, KONET fits the next points:</span>
       <ul>
         <li>Open-sourcing & continuous review of all code.</li>
         <li>
@@ -19,8 +19,8 @@ export const SafeWorkWithLido: FC = () => {
           Use of DAO for governance decisions &amp; to manage risk factors.
         </li>
         <li>
-          Lido has been audited by Certora, StateMind, Hexens, ChainSecurity,
-          Oxorio, MixBytes, SigmaPrime, Quantstamp. Lido audits can be found in
+          KONET has been audited by Certora, StateMind, Hexens, ChainSecurity,
+          Oxorio, MixBytes, SigmaPrime, Quantstamp. KONET audits can be found in
           more detail{' '}
           <Link
             href={'https://github.com/lidofinance/audits'}
@@ -32,8 +32,8 @@ export const SafeWorkWithLido: FC = () => {
         </li>
       </ul>
       <p>
-        Usually when staking ETH you choose only one validator. In the case of
-        Lido you stake across many validators, minimising your staking risk.
+        Usually when staking KONET you choose only one validator. In the case of
+        KONET you stake across many validators, minimising your staking risk.
       </p>
     </Accordion>
   );

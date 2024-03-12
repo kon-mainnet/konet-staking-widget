@@ -101,7 +101,7 @@ export const MATOMO_CLICK_EVENTS: Record<
   ],
   [MATOMO_CLICK_EVENTS_TYPES.viewEtherscanOnStakePage]: [
     'Ethereum_Staking_Widget',
-    'Push «View on Etherscan» on the right side of Lido Statistics',
+    'Push «View on KonetExplorer» on the right side of Lido Statistics',
     'eth_widget_etherscan_stakePage',
   ],
   [MATOMO_CLICK_EVENTS_TYPES.l2BannerStake]: [
@@ -207,7 +207,7 @@ export const MATOMO_CLICK_EVENTS: Record<
   ],
   [MATOMO_CLICK_EVENTS_TYPES.faqHowDoIUnwrapWstethUnwrapLink]: [
     'Ethereum_Staking_Widget',
-    'Push «stake.lido.fi/wrap/unwrap» How do I unwrap wstETH back to stETH?',
+    'Push «konetmain.com/wrap/unwrap» How do I unwrap wstETH back to stETH?',
     'eth_widget_faq_howunwrapwsteth_unwrap',
   ],
   [MATOMO_CLICK_EVENTS_TYPES.faqHowCanIUseWstethL2]: [
@@ -296,7 +296,7 @@ export const MATOMO_CLICK_EVENTS: Record<
   ],
   [MATOMO_CLICK_EVENTS_TYPES.withdrawalEtherscanSuccessTemplate]: [
     'Ethereum_Withdrawals_Widget',
-    'Click on "Etherscan" on success template after withdrawal request',
+    'Click on "KonetExplorer" on success template after withdrawal request',
     'eth_withdrawals_request_etherscan_success_template',
   ],
   [MATOMO_CLICK_EVENTS_TYPES.withdrawalGuideSuccessTemplate]: [
@@ -308,7 +308,7 @@ export const MATOMO_CLICK_EVENTS: Record<
   // /withdrawal?tab=claim page
   [MATOMO_CLICK_EVENTS_TYPES.claimViewOnEtherscanSuccessTemplate]: [
     'Ethereum_Withdrawals_Widget',
-    'Click on "View on Etherscan" on success template after claim',
+    'Click on "View on KonetExplorer" on success template after claim',
     'eth_withdrawals_claim_view_on_etherscan_success_template',
   ],
 

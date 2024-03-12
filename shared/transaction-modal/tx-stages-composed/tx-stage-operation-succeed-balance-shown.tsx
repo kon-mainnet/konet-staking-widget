@@ -46,7 +46,7 @@ export const TxStageOperationSucceedBalanceShown = ({
       }
       showEtherscan={false}
       footer={
-        balanceToken === 'stETH' || balanceToken === 'wstETH' ? (
+        balanceToken === 'stKONET' || balanceToken === 'wstKONET' ? (
           <L2LowFee token={balanceToken} />
         ) : undefined
       }

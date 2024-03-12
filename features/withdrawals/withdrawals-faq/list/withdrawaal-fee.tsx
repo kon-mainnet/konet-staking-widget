@@ -4,9 +4,9 @@ export const WithdrawalFee: React.FC = () => {
   return (
     <Accordion summary="Is there a fee for withdrawal?">
       <p>
-        There’s no withdrawal fee, but as with any Ethereum interaction, there
-        will be a network gas fee. Lido does not collect a fee when you request
-        a withdrawal.
+        There’s no withdrawal fee, but as with any KONET interaction, there will
+        be a network gas fee. KONET does not collect a fee when you request a
+        withdrawal.
       </p>
     </Accordion>
   );

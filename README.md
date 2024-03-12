@@ -1,6 +1,6 @@
-# Lido Ethereum Liquid Staking Widget
+# KONET Ethereum Liquid Staking Widget
 
-A widget for submitting Ether to the pool based on [Lido Frontend Template](https://github.com/lidofinance/lido-frontend-template).
+A widget for submitting Ether to the pool based on [KONET Frontend Template](https://github.com/lidofinance/lido-frontend-template).
 
 ### Pre-requisites
 

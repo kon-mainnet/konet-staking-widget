@@ -34,7 +34,7 @@ type OneInchRateResponse = {
 const cache = new Cache<string, OneInchRateResponse>();
 
 const DEFAULT_AMOUNT = parseEther('1');
-const TOKEN_ETH = 'ETH';
+const TOKEN_ETH = 'KONET';
 // Amounts larger make 1inch API return 500
 const MAX_BIGINT = BigNumber.from(
   '10000000000000000000000000000000000000000000000000000000000000000000',
@@ -58,8 +58,8 @@ const validateAndParseParams = (req: NextApiRequest, res: NextApiResponse) => {
     }
 
     if (req.query.amount) {
-      if (token === 'ETH') {
-        throw new Error(`Amount is not allowed to token ETH`);
+      if (token === 'KONET') {
+        throw new Error(`Amount is not allowed to token KONET`);
       }
       if (Array.isArray(req.query.amount)) {
         throw new Error(`Amount must be a string`);

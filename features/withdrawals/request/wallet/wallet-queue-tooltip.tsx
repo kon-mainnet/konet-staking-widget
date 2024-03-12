@@ -27,7 +27,7 @@ export const WalletQueueTooltip = () => {
       >
         <FormatToken
           amount={unfinalizedStETH}
-          symbol="stETH"
+          symbol="stKONET"
           showAmountTip={false}
         />
       </DataTableRowStyled>
@@ -43,7 +43,7 @@ export const WalletQueueTooltip = () => {
 
   const tooltipTitle = (
     <>
-      The withdrawal request time depends on the mode, overall amount of stETH
+      The withdrawal request time depends on the mode, overall amount of stKONET
       in queue and <OnlyIpfsRender>other factors</OnlyIpfsRender>
       <OnlyInfraRender>
         <a

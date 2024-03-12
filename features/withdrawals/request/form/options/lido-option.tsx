@@ -29,7 +29,7 @@ const TooltipWithdrawalAmount = () => {
       placement="topRight"
       title={
         <>
-          The final amount of claimable ETH can differ
+          The final amount of claimable KONET can differ
           <OnlyInfraRender>
             <br /> For more info, please read{' '}
             <a
@@ -75,7 +75,7 @@ export const LidoOption = () => {
             <FormatTokenStyled
               data-testid="lidoOptionAmount"
               amount={ethAmount}
-              symbol="ETH"
+              symbol="KONET"
             />{' '}
             <TooltipWithdrawalAmount />
           </>

@@ -9,7 +9,7 @@ import { LocalLink } from 'shared/components/local-link';
 
 export const HowCanIUnstakeSteth: FC = () => {
   return (
-    <Accordion summary="How can I unstake stETH?">
+    <Accordion summary="How can I unstake stKONET?">
       <p>
         You can use our{' '}
         <LocalLink
@@ -23,17 +23,17 @@ export const HowCanIUnstakeSteth: FC = () => {
         >
           Withdrawals Request and Claim tabs
         </LocalLink>{' '}
-        to unstake stETH and receive ETH at a 1:1 ratio. Under normal
+        to unstake stKONET and receive KONET at a 1:1 ratio. Under normal
         circumstances, withdrawal period can take anywhere between 1-5 days.
-        After that, you can claim your ETH using the Claim tab. Also, you can
-        exchange stETH on{' '}
+        After that, you can claim your KONET using the Claim tab. Also, you can
+        exchange stKONET on{' '}
         <OuterLink
-          href="https://lido.fi/lido-ecosystem?tokens=stETH&categories=Get"
+          href="https://konetmain.com/lido-ecosystem?tokens=stETH&categories=Get"
           data-matomo={
             MATOMO_CLICK_EVENTS_TYPES.faqHowCanIUnstakeStEthIntegrations
           }
         >
-          DEX Lido integrations
+          DEX KONET integrations
         </OuterLink>
         .
       </p>

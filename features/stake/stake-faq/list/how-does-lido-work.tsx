@@ -3,9 +3,9 @@ import { Accordion } from '@lidofinance/lido-ui';
 
 export const HowDoesLidoWork: FC = () => {
   return (
-    <Accordion summary="How does Lido work?">
+    <Accordion summary="How does KONET work?">
       <p>
-        While each network works differently, generally, the Lido protocols
+        While each network works differently, generally, the KONET protocols
         batch user tokens to stake with validators and route the staking
         packages to network staking contracts. Users mint amounts of stTokens
         which correspond to the amount of tokens sent as stake and they receive

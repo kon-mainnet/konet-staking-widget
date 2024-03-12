@@ -13,13 +13,13 @@ export const UnstakeAmountBoundaries: React.FC = () => {
   const maxAmountDisplay = formatAmount(maxAmount && weiToEth(maxAmount));
 
   return (
-    <Accordion summary="Is there any minimum or maximum amount of stETH/wstETH I can withdraw?">
+    <Accordion summary="Is there any minimum or maximum amount of stKONET/wstKONET I can withdraw?">
       <p>
-        Request size should be at least {minAmountDisplay} wei (in stETH), and
-        at most {maxAmountDisplay} stETH.
+        Request size should be at least {minAmountDisplay} wei (in stKONET), and
+        at most {maxAmountDisplay} stKONET.
       </p>
       <p>
-        If you want to withdraw more than {maxAmountDisplay} stETH, your
+        If you want to withdraw more than {maxAmountDisplay} stKONET, your
         withdrawal request will be split into several requests, but you will
         still only pay one transaction fee.
       </p>

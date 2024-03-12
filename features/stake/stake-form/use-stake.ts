@@ -37,7 +37,7 @@ export const useStake = ({ onConfirm, onRetry }: StakeOptions) => {
         invariant(chainId, 'chainId is not defined');
         invariant(account, 'account is not defined');
         invariant(providerWeb3, 'providerWeb3 not defined');
-        invariant(stethContractWeb3, 'steth is not defined');
+        invariant(stethContractWeb3, 'stkonet is not defined');
 
         if (
           enableQaHelpers &&

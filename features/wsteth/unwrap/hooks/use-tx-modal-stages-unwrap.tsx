@@ -10,8 +10,8 @@ import { TxStageOperationSucceedBalanceShown } from 'shared/transaction-modal/tx
 import type { BigNumber } from 'ethers';
 
 const STAGE_OPERATION_ARGS = {
-  token: 'wstETH',
-  willReceiveToken: 'stETH',
+  token: 'wstKONET',
+  willReceiveToken: 'stKONET',
   operationText: 'Unwrapping',
 };
 

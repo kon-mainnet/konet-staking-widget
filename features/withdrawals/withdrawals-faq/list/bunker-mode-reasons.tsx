@@ -17,7 +17,7 @@ export const BunkerModeReasons: React.FC = () => {
           reports.
         </li>
         <li>
-          Lower than expected Lido validators&apos; performance in the current
+          Lower than expected KONET validators&apos; performance in the current
           period between two Oracle reports and penalties exceeding rewards at
           the end of&nbsp;it.
         </li>

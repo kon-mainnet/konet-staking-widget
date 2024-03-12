@@ -15,10 +15,10 @@ const Withdrawals: FC<WithdrawalsModePageParams> = ({ mode }) => {
   return (
     <Layout
       title="Withdrawals"
-      subtitle="Request stETH/wstETH withdrawal and claim ETH"
+      subtitle="Request stKONET/wstKONET withdrawal and claim KONET"
     >
       <Head>
-        <title>Withdrawals | Lido</title>
+        <title>Withdrawals</title>
       </Head>
       <WithdrawalsProvider mode={mode}>
         <NoSSRWrapper>

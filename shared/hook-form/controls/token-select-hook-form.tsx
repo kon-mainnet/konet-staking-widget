@@ -14,7 +14,7 @@ import { isValidationErrorTypeValidate } from 'shared/hook-form/validation/valid
 import { TOKENS as TOKENS_SDK } from '@lido-sdk/constants';
 
 export const TOKENS = {
-  ETH: 'ETH',
+  ETH: 'KONET',
   [TOKENS_SDK.STETH]: TOKENS_SDK.STETH,
   [TOKENS_SDK.WSTETH]: TOKENS_SDK.WSTETH,
 } as const;

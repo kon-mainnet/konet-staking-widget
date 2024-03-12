@@ -4,18 +4,20 @@ import { MATOMO_CLICK_EVENTS_TYPES } from '../../../../../config';
 
 export const HowCanIUseWsteth: FC = () => {
   return (
-    <Accordion summary="How can I use wstETH?">
+    <Accordion summary="How can I use wstKONET?">
       <p>
-        wstETH is useful across{' '}
+        wstKONET is useful across{' '}
         <Link
-          href={'https://lido.fi/lido-ecosystem?networks=arbitrum%2Coptimism'}
+          href={
+            'https://konetmain.com/lido-ecosystem?networks=arbitrum%2Coptimism'
+          }
           data-matomo={MATOMO_CLICK_EVENTS_TYPES.faqHowCanIUseWstethL2}
         >
           L2
         </Link>{' '}
         and other{' '}
         <Link
-          href={'https://lido.fi/lido-ecosystem?tokens=wstETH'}
+          href={'https://konetmain.com/lido-ecosystem?tokens=wstETH'}
           data-matomo={
             MATOMO_CLICK_EVENTS_TYPES.faqHowCanIUseWstethDefiProtocols
           }

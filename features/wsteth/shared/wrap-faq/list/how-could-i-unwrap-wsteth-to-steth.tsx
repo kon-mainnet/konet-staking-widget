@@ -8,9 +8,9 @@ import { LocalLink } from 'shared/components/local-link';
 
 export const HowCouldIUnwrapWstethToSteth: FC = () => {
   return (
-    <Accordion summary="How could I unwrap wstETH back to stETH?">
+    <Accordion summary="How could I unwrap wstKONET back to stKONET?">
       <p>
-        You can unwrap your wstETH tokens using{' '}
+        You can unwrap your wstKONET tokens using{' '}
         <LocalLink
           href={WRAP_UNWRAP_PATH}
           onClick={() =>

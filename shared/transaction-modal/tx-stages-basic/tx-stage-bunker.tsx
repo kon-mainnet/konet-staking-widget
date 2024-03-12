@@ -14,7 +14,7 @@ export const TxStageBunker = ({ onClick, onClose }: TxStageBunkerProps) => {
     <TransactionModalContent
       icon={<StageIconDialog />}
       title="Attention!"
-      description="Lido protocol is in “Bunker mode”, the withdrawal requests are slowed down, still request withdrawal?"
+      description="KONET protocol is in “Bunker mode”, the withdrawal requests are slowed down, still request withdrawal?"
       footer={
         <BottomButtons>
           <Button fullwidth onClick={onClose} color="secondary" size="sm">

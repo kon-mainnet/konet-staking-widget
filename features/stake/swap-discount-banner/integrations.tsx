@@ -19,7 +19,7 @@ const STAKE_SWAP_INTEGRATION_CONFIG: StakeSwapDiscountIntegrationMap = {
     async getRate() {
       const { rate } = await getOpenOceanRate(
         DEFAULT_AMOUNT,
-        'ETH',
+        'KONET',
         TOKENS.STETH,
       );
       return rate;
@@ -39,7 +39,7 @@ const STAKE_SWAP_INTEGRATION_CONFIG: StakeSwapDiscountIntegrationMap = {
   'one-inch': {
     title: '1inch',
     async getRate() {
-      const { rate } = await getOneInchRate({ token: 'ETH' });
+      const { rate } = await getOneInchRate({ token: 'KONET' });
       return rate;
     },
     BannerText({ discountPercent }) {

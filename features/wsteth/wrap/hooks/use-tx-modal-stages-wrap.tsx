@@ -12,12 +12,12 @@ import type { BigNumber } from 'ethers';
 import type { TokensWrappable } from 'features/wsteth/shared/types';
 
 const STAGE_APPROVE_ARGS = {
-  willReceiveToken: 'wstETH',
+  willReceiveToken: 'wstKONET',
   operationText: 'Approving',
 };
 
 const STAGE_OPERATION_ARGS = {
-  willReceiveToken: 'wstETH',
+  willReceiveToken: 'wstKONET',
   operationText: 'Wrapping',
 };
 
@@ -80,7 +80,7 @@ const getTxModalStagesWrap = (transitStage: TransactionModalTransitStage) => ({
       <TxStageOperationSucceedBalanceShown
         txHash={txHash}
         balance={balance}
-        balanceToken={'wstETH'}
+        balanceToken={'wstKONET'}
         operationText={'Wrapping'}
       />,
       {

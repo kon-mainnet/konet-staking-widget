@@ -10,7 +10,7 @@ export const HowToWithdraw: FC = () => {
       <p>
         Press the{' '}
         <LocalLink href={WITHDRAWALS_REQUEST_PATH}>Request tab</LocalLink>,
-        choose an amount of stETH/wstETH to withdraw, then press ‘Request
+        choose an amount of stKONET/wstKONET to withdraw, then press ‘Request
         withdrawal’. Confirm the transaction using your wallet and press ‘Claim’
         on the <LocalLink href={WITHDRAWALS_CLAIM_PATH}>Claim tab</LocalLink>{' '}
         once it is ready.

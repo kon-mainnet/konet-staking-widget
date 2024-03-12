@@ -5,11 +5,11 @@ import { TokenSelectHookForm } from 'shared/hook-form/controls/token-select-hook
 
 const OPTIONS = [
   {
-    label: 'Lido (stETH)',
+    label: 'stKONET',
     token: TOKENS_TO_WRAP.STETH,
   },
   {
-    label: 'Ethereum (ETH)',
+    label: 'KONET',
     token: TOKENS_TO_WRAP.ETH,
   },
 ];

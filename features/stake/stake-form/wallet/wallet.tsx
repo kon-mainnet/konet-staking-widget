@@ -36,7 +36,7 @@ const WalletComponent: WalletComponentType = (props) => {
             <FormatToken
               data-testid="ethAvailableToStake"
               amount={stakeableEther}
-              symbol="ETH"
+              symbol="KONET"
             />
           }
         />
@@ -53,7 +53,7 @@ const WalletComponent: WalletComponentType = (props) => {
               <FormatToken
                 data-testid="stEthStaked"
                 amount={stethBalance}
-                symbol="stETH"
+                symbol="stKONET"
               />
               <TokenToWallet
                 data-testid="addStethToWalletBtn"
@@ -66,7 +66,7 @@ const WalletComponent: WalletComponentType = (props) => {
           small
           title={
             <>
-              Lido APR{' '}
+              KONET APR{' '}
               {lidoApr.data && (
                 <Tooltip placement="bottom" title={LIDO_APR_TOOLTIP_TEXT}>
                   <Question />

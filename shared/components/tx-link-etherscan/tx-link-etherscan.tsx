@@ -9,7 +9,7 @@ type TxLinkEtherscanProps = {
 };
 
 export const TxLinkEtherscan = (props: TxLinkEtherscanProps) => {
-  const { txHash, text = 'View on Etherscan', onClick } = props;
+  const { txHash, text = 'View on KonetExplorer', onClick } = props;
   const { chainId } = useSDK();
 
   if (!txHash) return null;

@@ -1,7 +1,7 @@
 {
-  "name": "Lido Staking Widget",
-  "short_name": "Lido",
-  "description": "Lido is the liquid staking solution for Ethereum.",
+  "name": "KONET Staking Widget",
+  "short_name": "KONET Staking",
+  "description": "KONET staking service is the liquid staking solution for KONET.",
   "iconPath": "favicon-1080x1080.svg",
   "icons": [
     {

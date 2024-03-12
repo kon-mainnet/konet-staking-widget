@@ -8,9 +8,9 @@ import { LocalLink } from 'shared/components/local-link';
 
 export const DoINeedToUnwrapMyWsteth: FC = () => {
   return (
-    <Accordion summary="Do I need to unwrap my wstETH before requesting withdrawals?">
+    <Accordion summary="Do I need to unwrap my sstKONET before requesting withdrawals?">
       <p>
-        No, you can transform your wstETH to ETH using the{' '}
+        No, you can transform your wstKONET to KONET using the{' '}
         <LocalLink
           href={WITHDRAWALS_REQUEST_PATH}
           onClick={() =>
@@ -22,8 +22,8 @@ export const DoINeedToUnwrapMyWsteth: FC = () => {
         >
           Withdrawals Request and Claim tabs
         </LocalLink>
-        . Note that, under the hood, wstETH will unwrap to stETH first, so your
-        request will be denominated in stETH.
+        . Note that, under the hood, wstKONET will unwrap to stKONET first, so
+        your request will be denominated in stKONET.
       </p>
     </Accordion>
   );

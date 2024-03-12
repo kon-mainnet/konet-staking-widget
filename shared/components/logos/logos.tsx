@@ -16,7 +16,7 @@ export const LogoLDOPL: LogoComponent = (props) => {
 
 export const LogoLido: FC<HTMLAttributes<HTMLDivElement>> = (props) => (
   <LogoLidoStyle {...props}>
-    <Link href="https://lido.fi">
+    <Link href="https://konetmain.com">
       <LidoLogo data-testid="lidoLogo" />
     </Link>
   </LogoLidoStyle>

@@ -22,8 +22,8 @@ export const L2Wsteth = ({ matomoEventLink }: L2WstethProps) => {
       onClickButton={linkClickHandler}
       text={
         <>
-          Enjoy <b>lower gas</b> fees and <b>DeFi opportunities</b> using wstETH
-          across Arbitrum, Optimism, Base, zkSync, Mantle and Linea.
+          Enjoy <b>lower gas</b> fees and <b>DeFi opportunities</b> using
+          wstKONET across Arbitrum, Optimism, Base, zkSync, Mantle and Linea.
         </>
       }
     />

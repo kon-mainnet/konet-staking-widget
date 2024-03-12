@@ -68,11 +68,11 @@ export const WrapFormStats = () => {
       >
         {oneWstethConverted ? (
           <>
-            1 {isSteth ? 'stETH' : 'ETH'} ={' '}
+            1 {isSteth ? 'stKONET' : 'KONET'} ={' '}
             <FormatToken
               data-testid="rate"
               amount={oneWstethConverted}
-              symbol="wstETH"
+              symbol="wstKONET"
             />{' '}
           </>
         ) : (
@@ -95,7 +95,7 @@ export const WrapFormStats = () => {
           amount={willReceiveWsteth}
           data-testid="youWillReceive"
           fallback="-"
-          symbol="wstETH"
+          symbol="wstKONET"
           trimEllipsis
         />
       </DataTableRow>

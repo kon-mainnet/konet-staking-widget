@@ -8,7 +8,7 @@ export const Banner: FC = () => {
     <Block>
       <BannerHeader>Whitelist mode is on</BannerHeader>
       <p>
-        The Lido referral program transitioned to &apos;whitelist mode&apos;
+        The KONET referral program transitioned to &apos;whitelist mode&apos;
         starting from 13.09.2021 / 00:00 UTC.
       </p>
       <br />
@@ -17,11 +17,11 @@ export const Banner: FC = () => {
         <Link href="https://docs.google.com/spreadsheets/d/13JO906tAVoPW9m0F1I39bxB2UIu7E41NSbxIFIzT18I/edit#gid=1322321646">
           &nbsp;whitelisted referral&nbsp;
         </Link>
-        partners approved by the Lido DAO are eligible for rewards. To apply to
-        Lido&apos;s whitelist you could here:
-        <Link href="https://research.lido.fi/t/referral-program-whitelisting-ethereum/1039">
+        partners approved by the KONET DAO are eligible for rewards. To apply to
+        KONET&apos;s whitelist you could here:
+        <Link href="https://konetmain.com/t/referral-program-whitelisting-ethereum/1039">
           {' '}
-          https://research.lido.fi/t/referral-program-whitelisting-ethereum/1039
+          https://konetmain.com/t/referral-program-whitelisting-ethereum/1039
         </Link>
       </p>
       <br />

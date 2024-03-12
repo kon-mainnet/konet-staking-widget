@@ -15,7 +15,7 @@ import {
 } from 'config/trackMatomoEvent';
 
 const STAGE_OPERATION_ARGS = {
-  token: 'ETH',
+  token: 'KONET',
   operationText: 'Claiming',
 };
 
@@ -43,7 +43,7 @@ const getTxModalStagesClaim = (transitStage: TransactionModalTransitStage) => ({
         txHash={txHash}
         title={
           <>
-            <TxAmount amount={amount} symbol="ETH" /> has been claimed
+            <TxAmount amount={amount} symbol="KONET" /> has been claimed
           </>
         }
         description="Claiming operation was successful"

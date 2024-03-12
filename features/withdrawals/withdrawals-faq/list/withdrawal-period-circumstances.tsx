@@ -7,7 +7,7 @@ export const WithdrawalPeriodCircumstances: React.FC = () => {
       id="withdrawalsPeriod"
     >
       <ul>
-        <li>The amount of stETH in the queue.</li>
+        <li>The amount of stKONET in the queue.</li>
         <li>Perfomance of the validator poolside.</li>
         <li>Exit queue on the Beacon chain.</li>
         <li>Demand for staking and unstaking.</li>

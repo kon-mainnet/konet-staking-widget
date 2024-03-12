@@ -40,13 +40,16 @@ const { label, link } = getVersionInfo();
 export const Footer: FC = () => (
   <FooterStyle size="full" forwardedAs="footer">
     <LogoLidoStyle />
-    <FooterLink data-testid="termsOfUse" href="https://lido.fi/terms-of-use">
+    <FooterLink
+      data-testid="termsOfUse"
+      href="https://konetmain.com/terms-of-use"
+    >
       Terms of Use
     </FooterLink>
     <LinkDivider />
     <FooterLink
       data-testid="privacyNotice"
-      href="https://lido.fi/privacy-notice"
+      href="https://konetmain.com/privacy-notice"
     >
       Privacy Notice
     </FooterLink>

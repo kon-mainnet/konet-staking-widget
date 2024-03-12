@@ -10,8 +10,8 @@ import { TxStageOperationSucceedBalanceShown } from 'shared/transaction-modal/tx
 import type { BigNumber } from 'ethers';
 
 const STAGE_OPERATION_ARGS = {
-  token: 'ETH',
-  willReceiveToken: 'stETH',
+  token: 'KONET',
+  willReceiveToken: 'stKONET',
   operationText: 'Staking',
 };
 
@@ -43,7 +43,7 @@ const getTxModalStagesStake = (transitStage: TransactionModalTransitStage) => ({
       <TxStageOperationSucceedBalanceShown
         txHash={txHash}
         balance={balance}
-        balanceToken={'stETH'}
+        balanceToken={'stKONET'}
         operationText={'Staking'}
       />,
       {

@@ -5,11 +5,11 @@ import { MATOMO_CLICK_EVENTS } from 'config';
 import { L2Banner, L2_DISCOVERY_LINK } from '../l2-banner';
 
 type L2LowFeeProps = {
-  token: 'stETH' | 'wstETH';
+  token: 'stKONET' | 'wstKONET';
 };
 
 export const L2LowFee: React.FC<L2LowFeeProps> = ({ token }) => {
-  const isStETH = token === 'stETH';
+  const isStETH = token === 'wstKONET';
 
   const linkClickHandler = useCallback(() => {
     const event = isStETH
@@ -19,7 +19,7 @@ export const L2LowFee: React.FC<L2LowFeeProps> = ({ token }) => {
   }, [isStETH]);
 
   const text = isStETH
-    ? 'Learn about Lido on L2 opportunities on Arbitrum, Optimism, Base, zkSync, Mantle and Linea to enjoy reduced gas fees in DeFi'
+    ? 'Learn about KONET on L2 opportunities on Arbitrum, Optimism, Base, zkSync, Mantle and Linea to enjoy reduced gas fees in DeFi'
     : 'Bridge wstETH to Arbitrum, Optimism, Base, zkSync, Mantle and Linea to enjoy low gas fees and enhanced opportunities in DeFi';
 
   return (

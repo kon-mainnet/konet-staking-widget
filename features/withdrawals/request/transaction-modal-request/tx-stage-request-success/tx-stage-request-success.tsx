@@ -24,7 +24,7 @@ import {
 import type { BigNumber } from 'ethers';
 
 const LINK_ADD_NFT_GUIDE =
-  'https://help.lido.fi/en/articles/7858367-how-do-i-add-the-lido-nft-to-metamask';
+  'https://konetmain.com/en/articles/7858367-how-do-i-add-the-lido-nft-to-metamask';
 
 type TxRequestStageSuccessProps = {
   txHash: string | null;
@@ -55,7 +55,7 @@ export const TxRequestStageSuccess = ({
       to view your withdrawal requests or view your transaction on{' '}
       <TxLinkEtherscan
         txHash={txHash ?? undefined}
-        text="Etherscan"
+        text="KonetExplorer"
         onClick={() =>
           trackMatomoEvent(
             MATOMO_CLICK_EVENTS_TYPES.withdrawalEtherscanSuccessTemplate,

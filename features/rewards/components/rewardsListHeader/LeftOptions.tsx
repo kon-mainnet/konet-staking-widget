@@ -26,7 +26,7 @@ export const LeftOptions: FC = () => {
             setIsUseArchiveExchangeRate(!isUseArchiveExchangeRate)
           }
           data-testid="historicalStEthCheckbox"
-          label="Historical stETH price"
+          label="Historical stKONET price"
         />
       </Tooltip>
       <Tooltip

@@ -8,9 +8,9 @@ import { LocalLink } from 'shared/components/local-link';
 
 export const HowCanIGetWsteth: FC = () => {
   return (
-    <Accordion summary="How can I get wstETH?">
+    <Accordion summary="How can I get wstKONET?">
       <p>
-        You can wrap your stETH or ETH tokens using{' '}
+        You can wrap your stKONET or KONET tokens using{' '}
         <LocalLink
           href={WRAP_PATH}
           onClick={() =>
@@ -24,10 +24,12 @@ export const HowCanIGetWsteth: FC = () => {
         </LocalLink>{' '}
         or{' '}
         <OuterLink
-          href={'https://lido.fi/lido-ecosystem?tokens=wstETH&categories=Get'}
+          href={
+            'https://konetmain.com/lido-ecosystem?tokens=wstETH&categories=Get'
+          }
           data-matomo={MATOMO_CLICK_EVENTS_TYPES.faqHowCanIGetStEthIntegrations}
         >
-          DEX Lido integrations
+          DEX KONET integrations
         </OuterLink>
       </p>
     </Accordion>

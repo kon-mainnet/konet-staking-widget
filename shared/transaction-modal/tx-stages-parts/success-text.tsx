@@ -13,7 +13,7 @@ export const SuccessText = ({ operationText, txHash }: SuccessTextProps) => {
         <>
           <br />
           Transaction can be viewed on{' '}
-          <TxLinkEtherscan txHash={txHash} text="Etherscan" />.
+          <TxLinkEtherscan txHash={txHash} text="KonetExplorer" />.
         </>
       )}
     </>

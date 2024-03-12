@@ -54,7 +54,7 @@ export const LidoStats: FC = memo(() => {
           data-testid="statEtherscanBtn"
           matomoEvent={MATOMO_CLICK_EVENTS_TYPES.viewEtherscanOnStakePage}
         >
-          View on Etherscan
+          View on KonetExplorer
         </MatomoLink>
       }
     >
@@ -78,7 +78,7 @@ export const LidoStats: FC = memo(() => {
           </LidoStatsItem>
 
           <LidoStatsItem
-            title="Total staked with Lido"
+            title="Total staked with KONET"
             show={showTotalStaked}
             loading={lidoStats.initialLoading}
             dataTestId="totalStaked"
@@ -96,7 +96,7 @@ export const LidoStats: FC = memo(() => {
           </LidoStatsItem>
 
           <LidoStatsItem
-            title="stETH market cap"
+            title="stKONET market cap"
             show={showMarketCap}
             loading={lidoStats.initialLoading}
             dataTestId="stEthMarketCap"

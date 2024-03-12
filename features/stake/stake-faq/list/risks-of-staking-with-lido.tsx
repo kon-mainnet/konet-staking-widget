@@ -4,7 +4,7 @@ import { MATOMO_CLICK_EVENTS_TYPES } from 'config';
 
 export const RisksOfStakingWithLido: FC = () => {
   return (
-    <Accordion summary="What are the risks of staking with Lido?">
+    <Accordion summary="What are the risks of staking with KONET?">
       <p>
         There exist a number of potential risks when staking using liquid
         staking protocols.
@@ -13,10 +13,10 @@ export const RisksOfStakingWithLido: FC = () => {
         <li>
           <span>Smart contract security</span>
           <p>
-            There is an inherent risk that Lido could contain a smart contract
-            vulnerability or bug. The Lido code is open-sourced, audited and
+            There is an inherent risk that KONET could contain a smart contract
+            vulnerability or bug. The KONET code is open-sourced, audited and
             covered by an extensive bug bounty program to minimise this risk. To
-            mitigate smart contract risks, all of the core Lido contracts are
+            mitigate smart contract risks, all of the core KONET contracts are
             audited. Audit reports can be found{' '}
             <Link
               href="https://github.com/lidofinance/audits#lido-protocol-audits"
@@ -24,7 +24,7 @@ export const RisksOfStakingWithLido: FC = () => {
             >
               here
             </Link>
-            . Besides, Lido is covered with a massive{' '}
+            . Besides, KONET is covered with a massive{' '}
             <Link
               href="https://immunefi.com/bounty/lido/"
               data-matomo={
@@ -40,7 +40,7 @@ export const RisksOfStakingWithLido: FC = () => {
           <span>Slashing risk</span>
           <p>
             Validators risk staking penalties, with up to 100% of staked funds
-            at risk if validators fail. To minimise this risk, Lido stakes
+            at risk if validators fail. To minimise this risk, KONET stakes
             across multiple professional and reputable node operators with
             heterogeneous setups, with additional mitigation in the form of
             self-coverage.
@@ -50,8 +50,8 @@ export const RisksOfStakingWithLido: FC = () => {
           <span>stToken price risk</span>
           <p>
             Users risk an exchange price of stTokens which is lower than
-            inherent value due to withdrawal restrictions on Lido, making
-            arbitrage and risk-free market-making impossible. The Lido DAO is
+            inherent value due to withdrawal restrictions on KONET, making
+            arbitrage and risk-free market-making impossible. The KONET DAO is
             driven to mitigate the above risks and eliminate them entirely to
             the extent possible. Despite this, they may still exist and, as
             such, it is our duty to communicate them.
@@ -59,7 +59,7 @@ export const RisksOfStakingWithLido: FC = () => {
         </li>
       </ul>
       <p>
-        The Lido DAO is driven to mitigate the above risks and eliminate them
+        The KONET DAO is driven to mitigate the above risks and eliminate them
         entirely to the extent possible. Despite this, they may still exist.
       </p>
     </Accordion>

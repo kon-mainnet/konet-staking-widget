@@ -19,8 +19,8 @@ import {
 import { invert, isNull, memoize, omitBy } from 'lodash';
 
 export const CONTRACT_NAMES = {
-  stETH: 'stETH',
-  wstETH: 'wstETH',
+  stETH: 'stKONET',
+  wstETH: 'wstKONET',
   WithdrawalQueue: 'WithdrawalQueue',
   Aggregator: 'Aggregator',
   AggregatorStEthUsdPriceFeed: 'AggregatorStEthUsdPriceFeed',

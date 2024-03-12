@@ -31,7 +31,7 @@ type OpenOceanGetQuotePartial = {
   };
 };
 
-type RateToken = TOKENS.STETH | TOKENS.WSTETH | 'ETH';
+type RateToken = TOKENS.STETH | TOKENS.WSTETH | 'KONET';
 
 type RateCalculationResult = { rate: number; toReceive: BigNumber };
 
@@ -54,7 +54,7 @@ const calculateRateReceive = (
 };
 
 const getRateTokenAddress = (token: RateToken) =>
-  token === 'ETH'
+  token === 'KONET'
     ? '0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE'
     : getTokenAddress(CHAINS.Mainnet, token);
 

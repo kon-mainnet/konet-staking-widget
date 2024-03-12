@@ -6,9 +6,7 @@ export const parseEnvConfig = (envConfig: EnvConfigRaw): EnvConfigParsed => {
     defaultChain: Number(envConfig.defaultChain),
     supportedChainIds: envConfig.supportedChains,
     prefillUnsafeElRpcUrls: {
-      [CHAINS.Mainnet]: envConfig.prefillUnsafeElRpcUrls1,
-      [CHAINS.Goerli]: envConfig.prefillUnsafeElRpcUrls5,
-      [CHAINS.Holesky]: envConfig.prefillUnsafeElRpcUrls17000,
+      [CHAINS.Konet]: envConfig.prefillUnsafeElRpcUrls1,
     },
     ipfsMode: envConfig.ipfsMode,
     walletconnectProjectId: envConfig.walletconnectProjectId,

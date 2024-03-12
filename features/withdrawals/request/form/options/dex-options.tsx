@@ -52,7 +52,7 @@ const DexOption: React.FC<DexOptionProps> = ({
           <FormatToken
             approx
             amount={toReceive ?? BigNumber.from(0)}
-            symbol="ETH"
+            symbol="KONET"
           />
         ) : (
           '-'

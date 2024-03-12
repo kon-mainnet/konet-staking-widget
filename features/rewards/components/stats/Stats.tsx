@@ -59,7 +59,7 @@ export const Stats: FC<StatsProps> = (props) => {
   return (
     <>
       <Item data-testid="stEthBalanceBlock">
-        <Title mb="8px">stETH balance</Title>
+        <Title mb="8px">stKONET balance</Title>
         <Stat data-testid="stEthBalance" mb="6px">
           <EthSymbol />
           <NumberFormat number={stEthBalanceParsed} pending={pending} />
@@ -76,7 +76,7 @@ export const Stats: FC<StatsProps> = (props) => {
         </Title>
       </Item>
       <Item data-testid="stEthRewardedBlock">
-        <Title mb="8px">stETH rewarded</Title>
+        <Title mb="8px">stKONET rewarded</Title>
         <Stat data-testid="stEthRewarded" mb="6px" color="#61B75F">
           <EthSymbol />
           <NumberFormat number={data?.totals.ethRewards} pending={pending} />
@@ -102,7 +102,7 @@ export const Stats: FC<StatsProps> = (props) => {
           )}
         </Stat>
         <Title hideMobile>
-          <Link href="https://lido.fi/faq">
+          <Link href="https://konetmain.com/faq">
             <Box
               data-testid="moreInfo"
               color="secondary"
@@ -114,7 +114,7 @@ export const Stats: FC<StatsProps> = (props) => {
         </Title>
       </Item>
       <Item data-testid="stEthPriceBlock">
-        <Title mb="8px">stETH price</Title>
+        <Title mb="8px">stKONET price</Title>
         <Stat data-testid="stEthPrice" mb="6px">
           <Box display="inline-block" pr="3px">
             {currency.symbol}

@@ -22,9 +22,9 @@ const CURVE_ABI = [
 ];
 
 const TOKENS = {
-  ETH: 'ETH',
-  STETH: 'stETH',
-  WSTETH: 'wstETH',
+  ETH: 'KONET',
+  STETH: 'stKONET',
+  WSTETH: 'wstKONET',
   CURVE: 'curve',
   LDO: 'LDO',
   LDO_REWARDS: 'LDO_Rewards',

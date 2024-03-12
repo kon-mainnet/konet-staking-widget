@@ -4,7 +4,7 @@ import { MATOMO_CLICK_EVENTS } from 'config';
 
 import { TextStyles, DescStyles, ButtonLinkWrap, ButtonStyled } from './styles';
 
-const ECOSYSTEM_LINK = 'https://lido.fi/lido-ecosystem';
+const ECOSYSTEM_LINK = 'https://konetmain.com/lido-ecosystem';
 
 const linkClickHandler = () =>
   trackEvent(...MATOMO_CLICK_EVENTS.clickExploreDeFi);
@@ -21,7 +21,7 @@ export const ModalPoolBanners = () => {
       <TextStyles>
         <b>Explore DeFi</b>
         <DescStyles>
-          Use your stETH/wstETH to get even bigger rewards
+          Use your stKONET/wstKONET to get even bigger rewards
         </DescStyles>
       </TextStyles>
       <Curve />

@@ -38,6 +38,7 @@ export const useRequestTxPrice = ({
   const { chainId } = useSDK();
   const { contractRpc } = useWithdrawalsContract();
   const fallback =
+    // TODO : fix type
     token === 'STETH'
       ? isApprovalFlow
         ? WITHDRAWAL_QUEUE_REQUEST_STETH_APPROVED_GAS_LIMIT_DEFAULT

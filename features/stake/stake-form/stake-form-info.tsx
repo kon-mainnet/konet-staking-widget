@@ -24,10 +24,10 @@ export const StakeFormInfo = () => {
   return (
     <DataTable data-testid="stakeFormInfo">
       <DataTableRow title="You will receive" data-testid="youWillReceive">
-        <FormatToken amount={amount ?? Zero} symbol="stETH" trimEllipsis />
+        <FormatToken amount={amount ?? Zero} symbol="stKONET" trimEllipsis />
       </DataTableRow>
       <DataTableRow title="Exchange rate" data-testid="exchangeRate">
-        1 ETH = 1 stETH
+        1 KONET = 1 stKONET
       </DataTableRow>
       <DataTableRow
         title="Max transaction cost"

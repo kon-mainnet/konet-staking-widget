@@ -16,12 +16,12 @@ import type { BigNumber } from 'ethers';
 import type { TokensWithdrawable } from 'features/withdrawals/types/tokens-withdrawable';
 
 const STAGE_APPROVE_ARGS = {
-  willReceiveToken: 'wstETH',
+  willReceiveToken: 'wstKONET',
   operationText: 'Approving',
 };
 
 const STAGE_OPERATION_ARGS = {
-  willReceiveToken: 'wstETH',
+  willReceiveToken: 'wstKONET',
   operationText: 'Requesting withdrawal for',
 };
 
