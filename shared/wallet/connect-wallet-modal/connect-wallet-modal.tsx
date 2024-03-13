@@ -9,7 +9,22 @@ export const ConnectWalletModal: ModalComponentType = (props) => {
     <WalletsModalForEth
       {...props}
       shouldInvertWalletIcon={themeName === 'dark'}
-      hiddenWallets={['Opera Wallet']}
+      hiddenWallets={[
+        'Opera Wallet',
+        'imToken',
+        'okx',
+        'walletconnect',
+        'ledgerHID',
+        'ledgerLive',
+        'exodus',
+        'ambire',
+        'bitkeep',
+        'coin98',
+        'brave',
+        'trust',
+        'xdefi',
+        'coinbase',
+      ]}
       metrics={walletsMetrics}
     />
   );
